@@ -64,16 +64,6 @@ Real problems I have debugged and fixed in production — sanitized and document
 
 ---
 
-## Certifications in progress
-
-| Cert | Target |
-|---|---|
-| CKA — Certified Kubernetes Administrator | July 2026 |
-| AWS Solutions Architect Associate | September 2026 |
-| HashiCorp Terraform Associate | October 2026 |
-
----
-
 ## GitHub metrics
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeWithYagnesh&show_icons=true&theme=default&hide_border=true&count_private=true)
