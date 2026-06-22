@@ -14,7 +14,7 @@
 
 ## What I do
 
-DevOps Engineer with 1.5+ years of production experience securing and operating Kubernetes infrastructure across multi-datacenter environments (FR / DU / WA). My work covers service mesh security with Istio, WAF enforcement at the gateway layer via Coraza, egress traffic control with ServiceEntry + Sidecar, and observability pipelines — not just CI/CD.
+DevOps Engineer with 1.5+ years of production experience securing and operating Kubernetes infrastructure across multi-region, multi-datacenter environments. My work covers service mesh security with Istio, WAF enforcement at the gateway layer via Coraza, egress traffic control with ServiceEntry + Sidecar, and observability pipelines — not just CI/CD.
 
 I document real production problems publicly. If you're dealing with Istio, Coraza WAF, EnvoyFilter, or ClickHouse on Kubernetes, the write-ups below might save you a few hours.
 
