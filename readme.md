@@ -1,59 +1,86 @@
-<!-- Profile Header -->
-<p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Montserrat&size=32&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Yagnesh+Jariwala;Developer+%7C+Creator+%7C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
-</p>
-
-<p align="center">
-    <a href="https://github.com/codewithyagnesh" target="_blank">
-        <img src="images/portfolio.png" alt="Portfolio" style="border-radius:20px;box-shadow:0 8px 40px rgba(51,0,95,0.5);border:1px solid #8F00FF;">
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/codewithyagnesh" style="text-decoration:none;">
-        <img src="https://img.shields.io/badge/Portfolio-8F00FF?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/>
-    </a>
-    <a href="https://www.linkedin.com/in/yagnesh-jariwala-70273128b/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://www.instagram.com/_yagnesh_jariwala_" target="_blank">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-    </a>
-    <a href="https://github.com/codewithyagnesh" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-</p>
-
----
-
-<!-- Languages & Tools -->
-<h2 align="center">🛠️ Languages & Tools</h2>
-<p align="center">
-    <img src="https://skillicons.dev/icons?i=android,angular,arduino,c,cpp,css,dart,dotnet,figma,firebase,flutter,git,html,ai,java,js,kotlin,linux,mongodb,mysql,nodejs,oracle,ps,php,postman,python,react,reactnative,selenium,sqlite,tensorflow,xd" alt="Languages & Tools" />
-</p>
-
----
-
-<!-- About Me -->
-<h2 align="center">👨‍💻 About Me</h2>
-
 <div align="center">
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220" alt="Coder GIF" style="border-radius:15px;box-shadow:0 4px 24px #8F00FF33;">
+
+# Yagnesh Jariwala
+
+**DevOps Engineer · Kubernetes · Istio · Coraza WAF · Multi-DC Infrastructure**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yagnesh-jariwala-70273128b)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CodeWithYagnesh)
+[![Location](https://img.shields.io/badge/Ahmedabad%2C%20Gujarat-India-orange?style=flat-square)](https://github.com/CodeWithYagnesh)
+
 </div>
 
-<ul>
-    <li>💼 <b>Passionate</b> about building impactful software and creative solutions.</li>
-    <li>🌱 <b>Always learning</b> new technologies and frameworks.</li>
-    <li>🤝 <b>Open</b> to collaboration and networking.</li>
-</ul>
+---
+
+## What I do
+
+DevOps Engineer with 1.5+ years of production experience securing and operating Kubernetes infrastructure across multi-datacenter environments (FR / DU / WA). My work covers service mesh security with Istio, WAF enforcement at the gateway layer via Coraza, egress traffic control with ServiceEntry + Sidecar, and observability pipelines — not just CI/CD.
+
+I document real production problems publicly. If you're dealing with Istio, Coraza WAF, EnvoyFilter, or ClickHouse on Kubernetes, the write-ups below might save you a few hours.
 
 ---
 
-<!-- Authors -->
-<h2 align="center">📝 Authors</h2>
+## Production stack
 
-<p align="center">
-    <a href="https://github.com/codewithyagnesh">
-        <img src="https://img.shields.io/badge/@yagneshJariwala-8F00FF?style=for-the-badge&logo=github&logoColor=white" alt="Author"/>
-    </a>
-</p>
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+
+---
+
+## Production incident notes
+
+Real problems I have debugged and fixed in production — sanitized and documented publicly.
+
+| Write-up | What it covers |
+|---|---|
+| [Coraza WAF on Istio Gateway](https://github.com/CodeWithYagnesh/k8s-production-troubleshooting) | WasmPlugin deploy · DetectionOnly → false-positive tuning → blocking. Per-domain rule sets via `per_authority_directives` |
+| [Istio egress control](https://github.com/CodeWithYagnesh/k8s-production-troubleshooting) | `REGISTRY_ONLY` mode · ServiceEntry + Sidecar `workloadSelector` for workload-scoped egress · prevents data exfiltration from compromised pods |
+| [EnvoyFilter PROXY Protocol + TLS Inspector](https://github.com/CodeWithYagnesh/k8s-production-troubleshooting) | HAProxy TCP passthrough → Istio Gateway · client IP preservation via XFF · `numTrustedProxies` config |
+| [ClickHouse Keeper TLS migration](https://github.com/CodeWithYagnesh/k8s-production-troubleshooting) | TLS port changes · liveness probe deadlock · quorum recovery on Altinity operator |
+
+---
+
+## Projects
+
+| Repo | What it is | Stack |
+|---|---|---|
+| [k8s-production-troubleshooting](https://github.com/CodeWithYagnesh/k8s-production-troubleshooting) | Running log of real Kubernetes/Istio production incidents | Kubernetes · Istio · Coraza · YAML |
+| [polyglot-service-mesh](https://github.com/CodeWithYagnesh/polyglot-service-mesh) | Multi-language microservices running on a service mesh | Go · Istio |
+| [aws-self-healing-idp](https://github.com/CodeWithYagnesh/aws-self-healing-idp) | Self-healing internal developer platform on AWS | Shell · AWS |
+| [crossplane-gitops-demo](https://github.com/CodeWithYagnesh/crossplane-gitops-demo) | GitOps-based infrastructure provisioning with Crossplane | Crossplane · ArgoCD |
+| [auth-api](https://github.com/CodeWithYagnesh/auth-api) | Authentication API service | Go |
+| [calendar](https://github.com/CodeWithYagnesh/calendar) | CalendarX — Flutter productivity app with project and cashbook modules | Flutter · Supabase · GitHub Actions |
+
+---
+
+## Certifications in progress
+
+| Cert | Target |
+|---|---|
+| CKA — Certified Kubernetes Administrator | July 2026 |
+| AWS Solutions Architect Associate | September 2026 |
+| HashiCorp Terraform Associate | October 2026 |
+
+---
+
+## GitHub metrics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeWithYagnesh&show_icons=true&theme=default&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeWithYagnesh&layout=compact&hide_border=true&theme=default)
+
+---
+
+<div align="center">
+  <sub>Documenting production Kubernetes · Istio · Coraza WAF fixes — Ahmedabad, India</sub>
+</div>
